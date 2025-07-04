@@ -99,7 +99,6 @@ export class Trued6Roll {
     }
     else if (data.rollType == "attribute") {
       text = game.i18n.localize("TRUED6.DiceRoll.Attribute");
-      result.resultValue = null;
       result.isAttack = false;
     }
     else if (data.rollType == "skill") {
