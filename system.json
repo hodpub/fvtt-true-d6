@@ -42,8 +42,10 @@
   "manifest": "https://github.com/cussa/fvtt-true-d6/releases/download/latest/module.json",
   "download": "https://github.com/cussa/fvtt-true-d6/releases/download/latest/module.zip",
   "background": "systems/trued6/assets/banner-white.png",
-  "gridDistance": 1,
-  "gridUnits": "m",
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "flags": {
