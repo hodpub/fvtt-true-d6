@@ -96,7 +96,7 @@ Hooks.once('ready', function () {
     game.actors.contents[0].sheet.render(true);
 });
 
-Hooks.on('renderChatLog', (app, html, _data) => {
+Hooks.on('renderChatMessageHTML', (app, html, _data) => {
   $(html).on('click', '.chat-reroll', (event) => Trued6Roll.rollFromChat(event));
 });
 
