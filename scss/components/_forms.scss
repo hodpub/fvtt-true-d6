@@ -55,6 +55,7 @@ form.player {
     flex: 1;
     background: $c-gray-background;
     border-radius: 0;
+    height: 100%;
 
     &.big {
       @extend .big3;

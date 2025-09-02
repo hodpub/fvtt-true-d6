@@ -293,6 +293,7 @@ button:not(.icon),
   flex: 1;
   background: #c0c0c0;
   border-radius: 0;
+  height: 100%;
 }
 .trued6 .border .label.top-left, .trued6 .chat-item-description .label.top-left, .trued6 .border .label.grid:first-child, .trued6 .chat-item-description .label.grid:first-child,
 .trued6 .border .label.grid-2col:first-child,
