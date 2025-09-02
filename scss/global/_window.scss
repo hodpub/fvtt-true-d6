@@ -1,5 +1,5 @@
 body,
-button,
+button:not(.icon),
 #tooltip {
   font-family: $font-headers;
   font-size: $font-normal-size;
