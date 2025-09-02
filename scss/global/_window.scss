@@ -1,3 +1,7 @@
+body {
+  --font-sans: $font-headers;
+}
+
 body,
 button:not(.icon),
 #tooltip {
@@ -12,10 +16,12 @@ button:not(.icon),
     color: #000;
     text-shadow: 0 0 10px $c-rollable;
     cursor: pointer;
-    &.advantage{
+
+    &.advantage {
       text-shadow: 0 0 10px $c-success;
     }
-    &.disadvantage{
+
+    &.disadvantage {
       text-shadow: 0 0 10px $c-failure;
     }
   }

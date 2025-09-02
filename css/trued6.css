@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Germania+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* Global styles */
+body {
+  --font-sans: $font-headers;
+}
+
 body,
 button:not(.icon),
 #tooltip {
