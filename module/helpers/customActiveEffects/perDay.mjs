@@ -18,7 +18,7 @@ export function perday(actor, change) {
   if (currentItem.system.whenRestUsed)
     return;
 
-  let skillsSameType = actor.items.filter(it => it.img == change.effect.parent.img && !it.name.startsWith("_"));
+  let skillsSameType = actor.items.filter(it => it.img == change.effect.parent.img && !it.name.startsWith("("));
   let changes = [];
 
   for (const k of Object.values(regexes)) {
