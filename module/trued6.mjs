@@ -97,7 +97,7 @@ Hooks.once('ready', function () {
 });
 
 Hooks.on('renderChatLog', (app, html, _data) => {
-  html.on('click', '.chat-reroll', (event) => Trued6Roll.rollFromChat(event));
+  $(html).on('click', '.chat-reroll', (event) => Trued6Roll.rollFromChat(event));
 });
 
 /* -------------------------------------------- */
